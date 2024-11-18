@@ -1,5 +1,5 @@
 let flowers = [];
-let numFlowers = 8;
+let numFlowers = 3;
 let mic;
 let micLevel = 0;
 let glowAmount = 0;
