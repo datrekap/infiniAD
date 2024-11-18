@@ -124,7 +124,7 @@ function setup() {
   angleMode(DEGREES);
   colorMode(HSB, 360, 100, 100, 1);
   noStroke();
-  //vid.hide();
+  vid.hide();
   // Initialize microphone with error handling
   mic = new p5.AudioIn();
   mic.start();
