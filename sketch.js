@@ -32,8 +32,6 @@ function setup() {
   noStroke();
 
   // Setup video background
-  vid.loop();
-  //vid.hide();
 
   // Setup video capture for movement detection
   video = createCapture(VIDEO);
@@ -62,6 +60,8 @@ function setup() {
 }
 
 function draw() {
+  vid.loop();
+  vid.hide();
   // Check for movement when not showing an image
   if (showImageTimer <= 0) {
     // Get microphone level with amplification and smoothing
