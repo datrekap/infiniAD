@@ -33,7 +33,7 @@ function setup() {
 
   // Setup video background
   vid.loop();
-  vid.hide();
+  //vid.hide();
 
   // Setup video capture for movement detection
   video = createCapture(VIDEO);
